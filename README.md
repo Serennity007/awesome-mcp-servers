@@ -88,6 +88,7 @@ AI:  → Fetches live docs → "Here's the latest API..."
 | 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Browser automation and web scraping | `@modelcontextprotocol/server-puppeteer` |
 | 8 | [Slack](servers/slack.md) | 💬 Communication | Send messages and manage channels | `@modelcontextprotocol/server-slack` |
 | 9 | [Context7](servers/context7.md) | 📚 Documentation | Up-to-date library documentation | `@upstash/context7-mcp` |
+| 10 | [Statsnet](servers/statsnet.md) | 🏢 Business | Background check any company in the world: registration, executives, courts and finances. | Remote: `https://statsnet.co/mcp` |
 
 ---
 
