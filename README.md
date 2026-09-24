@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-9-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-10-blue)](#servers)
 
 <br/>
 
@@ -88,6 +88,7 @@ AI:  → Fetches live docs → "Here's the latest API..."
 | 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Browser automation and web scraping | `@modelcontextprotocol/server-puppeteer` |
 | 8 | [Slack](servers/slack.md) | 💬 Communication | Send messages and manage channels | `@modelcontextprotocol/server-slack` |
 | 9 | [Context7](servers/context7.md) | 📚 Documentation | Up-to-date library documentation | `@upstash/context7-mcp` |
+| 10 | [Agent QA](servers/agent-qa.md) | 🔧 Development | Author and run QA tests, then triage results | `agent-qa` |
 
 ---
 
@@ -95,7 +96,7 @@ AI:  → Fetches live docs → "Here's the latest API..."
 
 | Category | Servers | Description |
 |----------|---------|-------------|
-| [🔧 Development](by-category/development.md) | GitHub | Code, repos |
+| [🔧 Development](by-category/development.md) | GitHub, Agent QA | Code, repos, QA testing |
 | [🗄️ Databases](by-category/databases.md) | PostgreSQL, Redis | Query, store, cache |
 | [💬 Communication](by-category/communication.md) | Slack | Messaging |
 | 📁 Files | Filesystem | Local file operations |
