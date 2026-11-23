@@ -13,6 +13,16 @@ Your MCP server should meet these criteria:
 - **Maintained** — It has been updated within the last 6 months
 - **Useful** — It solves a real problem for developers
 
+### Hosted and remote-only servers
+
+Remote endpoints (streamable HTTP / SSE) and hosted-only servers are listed when:
+
+- a public package or a documented endpoint exists (npm / PyPI, or a documented `/mcp` URL);
+- the setup section says the server is hosted and whether an account, payment, or OAuth is required;
+- the entry carries a `Status` and `Maintained by` line.
+
+An endpoint that only returns an authentication challenge counts as reachable, not as proof that the tools work. A hosted entry is not an endorsement, and paid plans must be stated.
+
 ### 2. Create the Server File
 
 Create a new file in `servers/` named `<server-name>.md` using this template:
@@ -100,6 +110,10 @@ If it introduces a new category:
 3. Commit your changes: `git commit -m "Add Server Name MCP server"`
 4. Push to your fork: `git push origin add-server-name`
 5. Open a Pull Request using the [PR template](.github/pull_request_template.md)
+
+## Localized READMEs
+
+The server table and the `Servers-N` badge are mirrored in ten README files (`README.md` and the nine `README.<locale>.md` files). When you add a server, update the row and the badge in all of them. If you cannot translate the description, open the PR with English only and say so in the description — the maintainer will fill in the other languages before merging.
 
 ## Updating an Existing Server
 

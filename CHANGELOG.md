@@ -5,6 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-11-24
+
+### Added
+
+- **Kleap** — Create, edit, and publish websites (`kleap-cli`, MIT)
+- **ContextStream** — Shared project context for AI coding agents: code search, decisions, lessons, and plans (`@contextstream/mcp-server`, MIT)
+- **Agent QA** — Author and run QA tests, then triage results (`agent-qa`, FSL-1.1-ALv2 source-available; linked only)
+- `by-category/web.md` category index; the Web row in the README index now links to it
+- The new-server issue template now lists the actual categories, and the `new-server` label exists
+
+### Verified
+
+- Kleap: hosted `https://kleap.co/api/mcp` answered `initialize` and `tools/list`; npm `kleap-cli@2.2.0` inspected.
+- ContextStream: hosted `https://mcp.contextstream.io/mcp` returned an authentication challenge (reachable remote MCP endpoint); npm `@contextstream/mcp-server@1.0.96` inspected.
+- Agent QA: npm `agent-qa@0.3.11` inspected, MCP stdio entry present; setup examples pinned to 0.3.11.
+- Verification is HTTP / npm metadata level. No server was exercised against a live account, and "verified" means reachable and structurally checked, not an endorsement.
+
 ## [1.0.0] - 2026-08-17
 
 ### Added

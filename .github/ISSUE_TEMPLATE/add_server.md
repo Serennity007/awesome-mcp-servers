@@ -21,7 +21,7 @@ assignees: ''
 <!-- e.g., https://www.npmjs.com/package/@modelcontextprotocol/server-mongodb -->
 
 **Category:**
-<!-- e.g., Databases, Development, Communication, Web, Knowledge, Monitoring, Files -->
+<!-- e.g., Databases, Development, Communication, Web, Knowledge, Files -->
 
 ## What It Does
 
