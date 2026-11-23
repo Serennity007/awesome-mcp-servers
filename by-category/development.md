@@ -8,6 +8,7 @@ MCP servers for software development workflows — code, repos, and DevOps.
 |--------|-------------|---------|--------|
 | [GitHub](../servers/github.md) | Repos, issues, PRs, and code search | `@modelcontextprotocol/server-github` | Stable |
 | [ContextStream](../servers/contextstream.md) | Shared project context — code search plus decisions, lessons, and plans | `@contextstream/mcp-server` | Stable |
+| [Agent QA](../servers/agent-qa.md) | Author and run QA tests, then triage results | `agent-qa` | Beta |
 
 ## Typical Workflows
 
