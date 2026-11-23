@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-9-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-12-blue)](#servers)
 
 <br/>
 
@@ -88,6 +88,9 @@ AI:  → Busca docs atualizados → "Aqui está a API mais recente..."
 | 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Automação de navegador e web scraping | `@modelcontextprotocol/server-puppeteer` |
 | 8 | [Slack](servers/slack.md) | 💬 Comunicação | Enviar mensagens e gerenciar canais | `@modelcontextprotocol/server-slack` |
 | 9 | [Context7](servers/context7.md) | 📚 Documentação | Documentação atualizada de bibliotecas | `@upstash/context7-mcp` |
+| 10 | [Kleap](servers/kleap.md) | 🌐 Web | Criar, editar e publicar sites | `kleap-cli` |
+| 11 | [ContextStream](servers/contextstream.md) | 🔧 Desenvolvimento | Contexto de projeto compartilhado para agentes de código de IA — MCP hospedado com busca de código, decisões, aprendizados e planos | `@contextstream/mcp-server` |
+| 12 | [Agent QA](servers/agent-qa.md) | 🔧 Desenvolvimento | Criar e executar testes de QA, depois fazer a triagem dos resultados | `agent-qa` |
 
 ---
 
@@ -95,11 +98,11 @@ AI:  → Busca docs atualizados → "Aqui está a API mais recente..."
 
 | Categoria | Servidores | Descrição |
 |----------|---------|-------------|
-| [🔧 Desenvolvimento](by-category/development.md) | GitHub | Código, repos |
+| [🔧 Desenvolvimento](by-category/development.md) | GitHub, ContextStream, Agent QA | Código, repos, contexto de projeto compartilhado, testes QA |
 | [🗄️ Bancos de Dados](by-category/databases.md) | PostgreSQL, Redis | Consultar, armazenar, cache |
 | [💬 Comunicação](by-category/communication.md) | Slack | Mensageria |
 | 📁 Arquivos | Filesystem | Operações de arquivos locais |
-| 🌐 Web | Web Search, Puppeteer | Pesquisa, automação de navegador |
+| [🌐 Web](by-category/web.md) | Web Search, Puppeteer, Kleap | Pesquisa, automação de navegador, publicação de sites |
 | 🧠 Conhecimento | Memory, Context7 | Contexto persistente, docs atualizados |
 
 ---

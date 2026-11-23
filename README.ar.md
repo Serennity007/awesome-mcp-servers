@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-9-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-12-blue)](#servers)
 
 <br/>
 
@@ -88,6 +88,9 @@ AI: → يجلب الوثائق الحية → "إليك آخر API..."
 | 7 | [Puppeteer](servers/puppeteer.md) | 🌐 ويب | أتمتة المتصفح وشبكة الويب | `@modelcontextprotocol/server-puppeteer` |
 | 8 | [Slack](servers/slack.md) | 💬 اتصالات | إرسال الرسائل وإإدارة القنوات | `@modelcontextprotocol/server-slack` |
 | 9 | [Context7](servers/context7.md) | 📚 توثيق | وثائق المكتبات المحدثة | `@upstash/context7-mcp` |
+| 10 | [Kleap](servers/kleap.md) | 🌐 ويب | إنشاء مواقع الويب وتحريرها ونشرها | `kleap-cli` |
+| 11 | [ContextStream](servers/contextstream.md) | 🔧 تطوير | سياق مشروع مشترك لوكلاء البرمجة بالذكاء الاصطناعي — MCP مستضاف مع البحث في الكود والقرارات والدروس والخطط | `@contextstream/mcp-server` |
+| 12 | [Agent QA](servers/agent-qa.md) | 🔧 تطوير | إنشاء اختبارات ضمان الجودة وتشغيلها، ثم فرز النتائج | `agent-qa` |
 
 ---
 
@@ -95,11 +98,11 @@ AI: → يجلب الوثائق الحية → "إليك آخر API..."
 
 | الفئة | الخوادم | الوصف |
 |----------|---------|-------------|
-| [🔧 تطوير](by-category/development.md) | GitHub | الكود، المستودعات |
+| [🔧 تطوير](by-category/development.md) | GitHub, ContextStream, Agent QA | الكود، المستودعات، سياق المشروع المشترك، اختبارات ضمان الجودة |
 | [🗄️ قواعد بيانات](by-category/databases.md) | PostgreSQL, Redis | الاستعلام، التخزين، التخزين المؤقت |
 | [💬 اتصالات](by-category/communication.md) | Slack | المراسلة |
 | 📁 ملفات | Filesystem | عمليات الملفات المحلية |
-| 🌐 ويب | Web Search, Puppeteer | البحث، أتمتة المتصفح |
+| [🌐 ويب](by-category/web.md) | Web Search, Puppeteer, Kleap | البحث، أتمتة المتصفح، نشر المواقع |
 | 🧠 معرفة | Memory, Context7 | السياق الدائم، الوثائق الحية |
 
 ---

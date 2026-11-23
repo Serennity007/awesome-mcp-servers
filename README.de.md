@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-9-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-12-blue)](#servers)
 
 <br/>
 
@@ -88,6 +88,9 @@ KI:  → Holt aktuelle Docs → "Hier ist die neueste API..."
 | 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Browser-Automatisierung und Web-Scraping | `@modelcontextprotocol/server-puppeteer` |
 | 8 | [Slack](servers/slack.md) | 💬 Kommunikation | Nachrichten senden und Kanäle verwalten | `@modelcontextprotocol/server-slack` |
 | 9 | [Context7](servers/context7.md) | 📚 Dokumentation | Aktuelle Bibliotheks-Dokumentation | `@upstash/context7-mcp` |
+| 10 | [Kleap](servers/kleap.md) | 🌐 Web | Websites erstellen, bearbeiten und veröffentlichen | `kleap-cli` |
+| 11 | [ContextStream](servers/contextstream.md) | 🔧 Entwicklung | Gemeinsamer Projektkontext für KI-Coding-Agenten — gehostetes MCP mit Codesuche sowie Entscheidungen, Erkenntnissen und Plänen | `@contextstream/mcp-server` |
+| 12 | [Agent QA](servers/agent-qa.md) | 🔧 Entwicklung | QA-Tests erstellen und ausführen, dann Ergebnisse triagieren | `agent-qa` |
 
 ---
 
@@ -95,11 +98,11 @@ KI:  → Holt aktuelle Docs → "Hier ist die neueste API..."
 
 | Kategorie | Server | Beschreibung |
 |----------|---------|-------------|
-| [🔧 Entwicklung](by-category/development.md) | GitHub | Code, Repos |
+| [🔧 Entwicklung](by-category/development.md) | GitHub, ContextStream, Agent QA | Code, Repos, gemeinsamer Projektkontext, QA-Tests |
 | [🗄️ Datenbanken](by-category/databases.md) | PostgreSQL, Redis | Abfragen, Speichern, Cache |
 | [💬 Kommunikation](by-category/communication.md) | Slack | Messaging |
 | 📁 Dateien | Filesystem | Lokale Dateioperationen |
-| 🌐 Web | Web Search, Puppeteer | Suche, Browser-Automatisierung |
+| [🌐 Web](by-category/web.md) | Web Search, Puppeteer, Kleap | Suche, Browser-Automatisierung, Website-Veröffentlichung |
 | 🧠 Wissen | Memory, Context7 | Persistenter Kontext, aktuelle Docs |
 
 ---

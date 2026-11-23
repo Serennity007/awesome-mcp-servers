@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-9-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-12-blue)](#servers)
 
 <br/>
 
@@ -88,6 +88,9 @@
 | 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Веб | Автоматизация браузера и веб-скрейпинг | `@modelcontextprotocol/server-puppeteer` |
 | 8 | [Slack](servers/slack.md) | 💬 Коммуникация | Отправка сообщений и управление каналами | `@modelcontextprotocol/server-slack` |
 | 9 | [Context7](servers/context7.md) | 📚 Документация | Актуальная документация библиотек | `@upstash/context7-mcp` |
+| 10 | [Kleap](servers/kleap.md) | 🌐 Веб | Создание, редактирование и публикация сайтов | `kleap-cli` |
+| 11 | [ContextStream](servers/contextstream.md) | 🔧 Разработка | Общий контекст проекта для ИИ-агентов кодирования — размещённый MCP с поиском по коду, решениями, извлечёнными уроками и планами | `@contextstream/mcp-server` |
+| 12 | [Agent QA](servers/agent-qa.md) | 🔧 Разработка | Создание и запуск QA-тестов, затем триаж результатов | `agent-qa` |
 
 ---
 
@@ -95,11 +98,11 @@
 
 | Категория | Серверы | Описание |
 |----------|---------|-------------|
-| [🔧 Разработка](by-category/development.md) | GitHub | Код, репозитории |
+| [🔧 Разработка](by-category/development.md) | GitHub, ContextStream, Agent QA | Код, репозитории, общий контекст проекта, QA-тестирование |
 | [🗄️ Базы данных](by-category/databases.md) | PostgreSQL, Redis | Запросы, хранение, кэш |
 | [💬 Коммуникация](by-category/communication.md) | Slack | Обмен сообщениями |
 | 📁 Файлы | Filesystem | Работа с локальными файлами |
-| 🌐 Веб | Web Search, Puppeteer | Поиск, автоматизация браузера |
+| [🌐 Веб](by-category/web.md) | Web Search, Puppeteer, Kleap | Поиск, автоматизация браузера, публикация сайтов |
 | 🧠 Знания | Memory, Context7 | Постоянный контекст, актуальные доки |
 
 ---

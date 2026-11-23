@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-9-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-12-blue)](#servers)
 
 <br/>
 
@@ -88,6 +88,9 @@ AI:  → 최신 문서 가져오기 → "최신 API입니다..."
 | 7 | [Puppeteer](servers/puppeteer.md) | 🌐 웹 | 브라우저 자동화 및 웹 스크래핑 | `@modelcontextprotocol/server-puppeteer` |
 | 8 | [Slack](servers/slack.md) | 💬 커뮤니케이션 | 메시지 전송 및 채널 관리 | `@modelcontextprotocol/server-slack` |
 | 9 | [Context7](servers/context7.md) | 📚 문서 | 최신 라이브러리 문서 | `@upstash/context7-mcp` |
+| 10 | [Kleap](servers/kleap.md) | 🌐 웹 | 웹사이트 생성, 편집, 게시 | `kleap-cli` |
+| 11 | [ContextStream](servers/contextstream.md) | 🔧 개발 | AI 코딩 에이전트를 위한 공유 프로젝트 컨텍스트 — 코드 검색과 결정 사항, 교훈, 계획을 제공하는 호스팅형 MCP | `@contextstream/mcp-server` |
+| 12 | [Agent QA](servers/agent-qa.md) | 🔧 개발 | QA 테스트를 작성하고 실행한 뒤 결과 분류 | `agent-qa` |
 
 ---
 
@@ -95,11 +98,11 @@ AI:  → 최신 문서 가져오기 → "최신 API입니다..."
 
 | 카테고리 | 서버 | 설명 |
 |----------|---------|-------------|
-| [🔧 개발](by-category/development.md) | GitHub | 코드, 레포 |
+| [🔧 개발](by-category/development.md) | GitHub, ContextStream, Agent QA | 코드, 레포, 공유 프로젝트 컨텍스트, QA 테스트 |
 | [🗄️ 데이터베이스](by-category/databases.md) | PostgreSQL, Redis | 쿼리, 저장, 캐시 |
 | [💬 커뮤니케이션](by-category/communication.md) | Slack | 메시징 |
 | 📁 파일 | Filesystem | 로컬 파일 연산 |
-| 🌐 웹 | Web Search, Puppeteer | 검색, 브라우저 자동화 |
+| [🌐 웹](by-category/web.md) | Web Search, Puppeteer, Kleap | 검색, 브라우저 자동화, 사이트 게시 |
 | 🧠 지식 | Memory, Context7 | 영구 컨텍스트, 최신 문서 |
 
 ---

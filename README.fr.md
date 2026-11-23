@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-9-blue)](#serveurs)
+[![Servers](https://img.shields.io/badge/Servers-12-blue)](#serveurs)
 
 <br/>
 
@@ -88,6 +88,9 @@ AI:  → Fetches live docs → "Here's the latest API..."
 | 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Automatisation de navigateur et web scraping | `@modelcontextprotocol/server-puppeteer` |
 | 8 | [Slack](servers/slack.md) | 💬 Communication | Envoyer des messages et gérer les canaux | `@modelcontextprotocol/server-slack` |
 | 9 | [Context7](servers/context7.md) | 📚 Documentation | Documentation à jour des bibliothèques | `@upstash/context7-mcp` |
+| 10 | [Kleap](servers/kleap.md) | 🌐 Web | Créer, modifier et publier des sites web | `kleap-cli` |
+| 11 | [ContextStream](servers/contextstream.md) | 🔧 Développement | Contexte de projet partagé pour les agents de codage IA — MCP hébergé avec recherche de code, décisions, leçons et plans | `@contextstream/mcp-server` |
+| 12 | [Agent QA](servers/agent-qa.md) | 🔧 Développement | Créer et exécuter des tests QA, puis trier les résultats | `agent-qa` |
 
 ---
 
@@ -95,11 +98,11 @@ AI:  → Fetches live docs → "Here's the latest API..."
 
 | Catégorie | Serveurs | Description |
 |----------|---------|-------------|
-| [🔧 Développement](by-category/development.md) | GitHub | Code, dépôts |
+| [🔧 Développement](by-category/development.md) | GitHub, ContextStream, Agent QA | Code, dépôts, contexte de projet partagé, tests QA |
 | [🗄️ Bases de données](by-category/databases.md) | PostgreSQL, Redis | Requêtes, stockage, cache |
 | [💬 Communication](by-category/communication.md) | Slack | Messagerie |
 | 📁 Fichiers | Filesystem | Opérations sur fichiers locaux |
-| 🌐 Web | Web Search, Puppeteer | Recherche, automatisation de navigateur |
+| [🌐 Web](by-category/web.md) | Web Search, Puppeteer, Kleap | Recherche, automatisation de navigateur, publication de sites |
 | 🧠 Connaissance | Memory, Context7 | Contexte persistant, documentation en direct |
 
 ---

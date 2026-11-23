@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-9-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-12-blue)](#servers)
 
 <br/>
 
@@ -88,6 +88,9 @@ AI:  → Fetches live docs → "Here's the latest API..."
 | 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | ブラウザ自動化とウェブスクレイピング | `@modelcontextprotocol/server-puppeteer` |
 | 8 | [Slack](servers/slack.md) | 💬 コミュニケーション | メッセージ送信とチャンネル管理 | `@modelcontextprotocol/server-slack` |
 | 9 | [Context7](servers/context7.md) | 📚 ドキュメント | 最新のライブラリドキュメント | `@upstash/context7-mcp` |
+| 10 | [Kleap](servers/kleap.md) | 🌐 Web | ウェブサイトの作成、編集、公開 | `kleap-cli` |
+| 11 | [ContextStream](servers/contextstream.md) | 🔧 開発 | AIコーディングエージェント向けの共有プロジェクトコンテキスト — コード検索と決定事項・教訓・計画を備えたホスト型MCP | `@contextstream/mcp-server` |
+| 12 | [Agent QA](servers/agent-qa.md) | 🔧 開発 | QAテストを作成・実行し、結果をトリアージ | `agent-qa` |
 
 ---
 
@@ -95,11 +98,11 @@ AI:  → Fetches live docs → "Here's the latest API..."
 
 | カテゴリ | サーバー | 説明 |
 |----------|---------|-------------|
-| [🔧 開発](by-category/development.md) | GitHub | コード、リポジトリ |
+| [🔧 開発](by-category/development.md) | GitHub, ContextStream, Agent QA | コード、リポジトリ、共有プロジェクトコンテキスト、QAテスト |
 | [🗄️ データベース](by-category/databases.md) | PostgreSQL, Redis | クエリ、ストレージ、キャッシュ |
 | [💬 コミュニケーション](by-category/communication.md) | Slack | メッセージング |
 | 📁 ファイル | Filesystem | ローカルファイル操作 |
-| 🌐 Web | Web Search, Puppeteer | 検索、ブラウザ自動化 |
+| [🌐 Web](by-category/web.md) | Web Search, Puppeteer, Kleap | 検索、ブラウザ自動化、サイト公開 |
 | 🧠 ナレッジ | Memory, Context7 | 永続コンテキスト、ライブドキュメント |
 
 ---
