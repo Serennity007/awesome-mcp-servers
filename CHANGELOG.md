@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2026-11-24
+
+### Added
+
+- **Geonode** — Hosted MCP server for web extraction, crawling, URL discovery and search (`https://mcp.geonode.com/mcp`; hosted-only, MIT server repo, API key for the full toolset)
+- Web category index now covers web extraction; badges and the repo count move to 13 servers
+
+### Verified
+
+- Endpoint smoke test on 2026-11-24: `initialize` and `tools/list` returned HTTP 200 and 16 tools (`extract`, `job`, `jobs`, `statistics`, `batch`, `batch_status`, `cancel_batch`, `crawl`, `crawl_status`, `cancel_crawl`, `map`, `map_jobs`, `map_job`, `search`, `search_jobs`, `search_job`).
+- Keyless access is rate-limited by the vendor; no account-backed tool was exercised. "Verified" means reachable and structurally checked, not an endorsement of a paid plan.
+
 ## [1.1.0] - 2026-11-24
 
 ### Added
