@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-12-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-13-blue)](#servers)
 
 <br/>
 
@@ -91,6 +91,7 @@
 | 10 | [Kleap](servers/kleap.md) | 🌐 Веб | Создание, редактирование и публикация сайтов | `kleap-cli` |
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 Разработка | Общий контекст проекта для ИИ-агентов кодирования — размещённый MCP с поиском по коду, решениями, извлечёнными уроками и планами | `@contextstream/mcp-server` |
 | 12 | [Agent QA](servers/agent-qa.md) | 🔧 Разработка | Создание и запуск QA-тестов, затем триаж результатов | `agent-qa` |
+| 13 | [Geonode](servers/geonode.md) | 🌐 Веб | Размещённое извлечение веб-контента, обход сайтов, поиск URL и веб-поиск | Remote: https://mcp.geonode.com/mcp |
 
 ---
 
@@ -102,7 +103,7 @@
 | [🗄️ Базы данных](by-category/databases.md) | PostgreSQL, Redis | Запросы, хранение, кэш |
 | [💬 Коммуникация](by-category/communication.md) | Slack | Обмен сообщениями |
 | 📁 Файлы | Filesystem | Работа с локальными файлами |
-| [🌐 Веб](by-category/web.md) | Web Search, Puppeteer, Kleap | Поиск, автоматизация браузера, публикация сайтов |
+| [🌐 Веб](by-category/web.md) | Web Search, Puppeteer, Kleap, Geonode | Поиск, автоматизация браузера, публикация сайтов, извлечение веб-контента |
 | 🧠 Знания | Memory, Context7 | Постоянный контекст, актуальные доки |
 
 ---

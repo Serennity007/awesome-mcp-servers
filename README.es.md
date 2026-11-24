@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-12-blue)](#servidores)
+[![Servers](https://img.shields.io/badge/Servers-13-blue)](#servidores)
 
 <br/>
 
@@ -91,6 +91,7 @@ AI:  → Fetches live docs → "Here's the latest API..."
 | 10 | [Kleap](servers/kleap.md) | 🌐 Web | Crear, editar y publicar sitios web | `kleap-cli` |
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 Desarrollo | Contexto de proyecto compartido para agentes de código IA — MCP alojado con búsqueda de código, decisiones, lecciones y planes | `@contextstream/mcp-server` |
 | 12 | [Agent QA](servers/agent-qa.md) | 🔧 Desarrollo | Crear y ejecutar pruebas de QA, luego clasificar los resultados | `agent-qa` |
+| 13 | [Geonode](servers/geonode.md) | 🌐 Web | Extracción web alojada, rastreo, descubrimiento de URL y búsqueda | Remote: https://mcp.geonode.com/mcp |
 
 ---
 
@@ -102,7 +103,7 @@ AI:  → Fetches live docs → "Here's the latest API..."
 | [🗄️ Bases de datos](by-category/databases.md) | PostgreSQL, Redis | Consultas, almacenamiento, caché |
 | [💬 Comunicación](by-category/communication.md) | Slack | Mensajería |
 | 📁 Archivos | Filesystem | Operaciones con archivos locales |
-| [🌐 Web](by-category/web.md) | Web Search, Puppeteer, Kleap | Búsqueda, automatización de navegador, publicación de sitios |
+| [🌐 Web](by-category/web.md) | Web Search, Puppeteer, Kleap, Geonode | Búsqueda, automatización de navegador, publicación de sitios, extracción web |
 | 🧠 Conocimiento | Memory, Context7 | Contexto persistente, documentación en vivo |
 
 ---
