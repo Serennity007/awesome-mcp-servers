@@ -16,11 +16,11 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#서버)
 
 <br/>
 
-[MCP란?](#what-is-mcp) • [서버](#servers) • [빠른 시작](#quick-start) • [카테고리](#categories) • [FAQ](#faq) • [기여](CONTRIBUTING.md)
+[MCP란?](#mcp란) • [서버](#서버) • [빠른 시작](#빠른-시작) • [카테고리](#카테고리) • [FAQ](#faq) • [기여](CONTRIBUTING.md)
 
 </div>
 
@@ -80,13 +80,13 @@ AI:  → 최신 문서 가져오기 → "최신 API입니다..."
 | # | 서버 | 카테고리 | 설명 | 패키지 |
 |---|--------|----------|-------------|---------|
 | 1 | [Filesystem](servers/filesystem.md) | 📁 파일 | 로컬 파일 읽기, 쓰기, 관리 | `@modelcontextprotocol/server-filesystem` |
-| 2 | [GitHub](servers/github.md) | 🔧 개발 | 레포, 이슈, PR, 코드 검색 | `@modelcontextprotocol/server-github` |
-| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ 데이터베이스 | PostgreSQL 데이터베이스 쿼리 및 탐색 | `@modelcontextprotocol/server-postgres` |
-| 4 | [Redis](servers/redis.md) | 🗄️ 데이터베이스 | 캐시, pub/sub, 키-값 연산 | `@modelcontextprotocol/server-redis` |
-| 5 | [Web Search](servers/web-search.md) | 🌐 웹 | Brave 또는 Google로 웹 검색 | `@modelcontextprotocol/server-brave-search` |
+| 2 | [GitHub](servers/github.md) | 🔧 개발 | 레포, 이슈, PR, 코드 검색 | `@modelcontextprotocol/server-github` (archived) |
+| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ 데이터베이스 | PostgreSQL 데이터베이스 쿼리 및 탐색 | `@modelcontextprotocol/server-postgres` (archived) |
+| 4 | [Redis](servers/redis.md) | 🗄️ 데이터베이스 | 캐시, pub/sub, 키-값 연산 | `@modelcontextprotocol/server-redis` (archived) |
+| 5 | [Web Search](servers/web-search.md) | 🌐 웹 | Brave 또는 Google로 웹 검색 | `@modelcontextprotocol/server-brave-search` (archived) |
 | 6 | [Memory](servers/memory.md) | 🧠 지식 | 영구 메모리 및 지식 그래프 | `@modelcontextprotocol/server-memory` |
-| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 웹 | 브라우저 자동화 및 웹 스크래핑 | `@modelcontextprotocol/server-puppeteer` |
-| 8 | [Slack](servers/slack.md) | 💬 커뮤니케이션 | 메시지 전송 및 채널 관리 | `@modelcontextprotocol/server-slack` |
+| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 웹 | 브라우저 자동화 및 웹 스크래핑 | `@modelcontextprotocol/server-puppeteer` (archived) |
+| 8 | [Slack](servers/slack.md) | 💬 커뮤니케이션 | 메시지 전송 및 채널 관리 | `@modelcontextprotocol/server-slack` (archived) |
 | 9 | [Context7](servers/context7.md) | 📚 문서 | 최신 라이브러리 문서 | `@upstash/context7-mcp` |
 | 10 | [Kleap](servers/kleap.md) | 🌐 웹 | 웹사이트 생성, 편집, 게시 | `kleap-cli` |
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 개발 | AI 코딩 에이전트를 위한 공유 프로젝트 컨텍스트 — 코드 검색과 결정 사항, 교훈, 계획을 제공하는 호스팅형 MCP | `@contextstream/mcp-server` |
@@ -163,16 +163,13 @@ args = ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/your/project"
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
     },
-    "github": {
+    "memory": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_xxxxxxxxxxxx"
-      }
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
-    "postgres": {
+    "context7": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+      "args": ["-y", "@upstash/context7-mcp"]
     }
   }
 }

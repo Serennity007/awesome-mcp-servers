@@ -16,11 +16,11 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#الخوادم)
 
 <br/>
 
-[ما هو MCP؟](#what-is-mcp) • [الخوادم](#servers) • [البدء السريع](#quick-start) • [الفئات](#categories) • [الأسئلة الشائعة](#faq) • [المساهمة](CONTRIBUTING.md)
+[ما هو MCP؟](#ما-هو-mcp) • [الخوادم](#الخوادم) • [البدء السريع](#البدء-السريع) • [الفئات](#الفئات) • [الأسئلة الشائعة](#الأسئلة-الشائعة) • [المساهمة](CONTRIBUTING.md)
 
 </div>
 
@@ -80,13 +80,13 @@ AI: → يجلب الوثائق الحية → "إليك آخر API..."
 | # | الخادم | الفئة | الوصف | الحزمة |
 |---|--------|----------|-------------|---------|
 | 1 | [Filesystem](servers/filesystem.md) | 📁 ملفات | قراءة وكتابة وإدارة الملفات المحلية | `@modelcontextprotocol/server-filesystem` |
-| 2 | [GitHub](servers/github.md) | 🔧 تطوير | المستودعات، المشكلات، طلبات السحب، والبحث في الكود | `@modelcontextprotocol/server-github` |
-| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ قواعد البيانات | الاستعلام عن قواعد بيانات PostgreSQL واستكشافها | `@modelcontextprotocol/server-postgres` |
-| 4 | [Redis](servers/redis.md) | 🗄️ قواعد البيانات | التخزين المؤقت، النشر/الاشتراك، وعمليات القيمة-المفتاح | `@modelcontextprotocol/server-redis` |
-| 5 | [Web Search](servers/web-search.md) | 🌐 ويب | البحث في الويب باستخدام Brave أو Google | `@modelcontextprotocol/server-brave-search` |
+| 2 | [GitHub](servers/github.md) | 🔧 تطوير | المستودعات، المشكلات، طلبات السحب، والبحث في الكود | `@modelcontextprotocol/server-github` (archived) |
+| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ قواعد البيانات | الاستعلام عن قواعد بيانات PostgreSQL واستكشافها | `@modelcontextprotocol/server-postgres` (archived) |
+| 4 | [Redis](servers/redis.md) | 🗄️ قواعد البيانات | التخزين المؤقت، النشر/الاشتراك، وعمليات القيمة-المفتاح | `@modelcontextprotocol/server-redis` (archived) |
+| 5 | [Web Search](servers/web-search.md) | 🌐 ويب | البحث في الويب باستخدام Brave أو Google | `@modelcontextprotocol/server-brave-search` (archived) |
 | 6 | [Memory](servers/memory.md) | 🧠 معرفة | الذاكرة الدائمة ورسم المعرفة البياني | `@modelcontextprotocol/server-memory` |
-| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 ويب | أتمتة المتصفح وشبكة الويب | `@modelcontextprotocol/server-puppeteer` |
-| 8 | [Slack](servers/slack.md) | 💬 اتصالات | إرسال الرسائل وإإدارة القنوات | `@modelcontextprotocol/server-slack` |
+| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 ويب | أتمتة المتصفح وشبكة الويب | `@modelcontextprotocol/server-puppeteer` (archived) |
+| 8 | [Slack](servers/slack.md) | 💬 اتصالات | إرسال الرسائل وإإدارة القنوات | `@modelcontextprotocol/server-slack` (archived) |
 | 9 | [Context7](servers/context7.md) | 📚 توثيق | وثائق المكتبات المحدثة | `@upstash/context7-mcp` |
 | 10 | [Kleap](servers/kleap.md) | 🌐 ويب | إنشاء مواقع الويب وتحريرها ونشرها | `kleap-cli` |
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 تطوير | سياق مشروع مشترك لوكلاء البرمجة بالذكاء الاصطناعي — MCP مستضاف مع البحث في الكود والقرارات والدروس والخطط | `@contextstream/mcp-server` |
@@ -163,16 +163,13 @@ args = ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/your/project"
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
     },
-    "github": {
+    "memory": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_xxxxxxxxxxxx"
-      }
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
-    "postgres": {
+    "context7": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+      "args": ["-y", "@upstash/context7-mcp"]
     }
   }
 }
@@ -257,7 +254,7 @@ args = ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/your/project"
 
 **بُني بـ ❤️ بواسطة مجتمع MCP**
 
-[⬆ العودة للأعلى](#-awesome-mcp-servers)
+[⬆ العودة للأعلى](#-خوادم-mcp-الرائعة)
 
 </div>
 

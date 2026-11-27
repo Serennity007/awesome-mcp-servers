@@ -16,11 +16,11 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#server)
 
 <br/>
 
-[Was ist MCP?](#what-is-mcp) • [Server](#servers) • [Schnellstart](#quick-start) • [Kategorien](#categories) • [FAQ](#faq) • [Mitwirken](CONTRIBUTING.md)
+[Was ist MCP?](#was-ist-mcp) • [Server](#server) • [Schnellstart](#schnellstart) • [Kategorien](#kategorien) • [FAQ](#faq) • [Mitwirken](CONTRIBUTING.md)
 
 </div>
 
@@ -80,13 +80,13 @@ KI:  → Holt aktuelle Docs → "Hier ist die neueste API..."
 | # | Server | Kategorie | Beschreibung | Paket |
 |---|--------|----------|-------------|---------|
 | 1 | [Filesystem](servers/filesystem.md) | 📁 Dateien | Lokale Dateien lesen, schreiben und verwalten | `@modelcontextprotocol/server-filesystem` |
-| 2 | [GitHub](servers/github.md) | 🔧 Entwicklung | Repos, Issues, PRs und Codesuche | `@modelcontextprotocol/server-github` |
-| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ Datenbanken | PostgreSQL-Datenbanken abfragen und erkunden | `@modelcontextprotocol/server-postgres` |
-| 4 | [Redis](servers/redis.md) | 🗄️ Datenbanken | Cache, Pub/Sub und Key-Value-Operationen | `@modelcontextprotocol/server-redis` |
-| 5 | [Web Search](servers/web-search.md) | 🌐 Web | Websuche mit Brave oder Google | `@modelcontextprotocol/server-brave-search` |
+| 2 | [GitHub](servers/github.md) | 🔧 Entwicklung | Repos, Issues, PRs und Codesuche | `@modelcontextprotocol/server-github` (archived) |
+| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ Datenbanken | PostgreSQL-Datenbanken abfragen und erkunden | `@modelcontextprotocol/server-postgres` (archived) |
+| 4 | [Redis](servers/redis.md) | 🗄️ Datenbanken | Cache, Pub/Sub und Key-Value-Operationen | `@modelcontextprotocol/server-redis` (archived) |
+| 5 | [Web Search](servers/web-search.md) | 🌐 Web | Websuche mit Brave oder Google | `@modelcontextprotocol/server-brave-search` (archived) |
 | 6 | [Memory](servers/memory.md) | 🧠 Wissen | Persistenter Speicher und Wissensgraph | `@modelcontextprotocol/server-memory` |
-| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Browser-Automatisierung und Web-Scraping | `@modelcontextprotocol/server-puppeteer` |
-| 8 | [Slack](servers/slack.md) | 💬 Kommunikation | Nachrichten senden und Kanäle verwalten | `@modelcontextprotocol/server-slack` |
+| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Browser-Automatisierung und Web-Scraping | `@modelcontextprotocol/server-puppeteer` (archived) |
+| 8 | [Slack](servers/slack.md) | 💬 Kommunikation | Nachrichten senden und Kanäle verwalten | `@modelcontextprotocol/server-slack` (archived) |
 | 9 | [Context7](servers/context7.md) | 📚 Dokumentation | Aktuelle Bibliotheks-Dokumentation | `@upstash/context7-mcp` |
 | 10 | [Kleap](servers/kleap.md) | 🌐 Web | Websites erstellen, bearbeiten und veröffentlichen | `kleap-cli` |
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 Entwicklung | Gemeinsamer Projektkontext für KI-Coding-Agenten — gehostetes MCP mit Codesuche sowie Entscheidungen, Erkenntnissen und Plänen | `@contextstream/mcp-server` |
@@ -163,16 +163,13 @@ Sie können so viele Server stapeln, wie Sie benötigen:
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
     },
-    "github": {
+    "memory": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_xxxxxxxxxxxx"
-      }
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
-    "postgres": {
+    "context7": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+      "args": ["-y", "@upstash/context7-mcp"]
     }
   }
 }

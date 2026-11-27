@@ -2,6 +2,13 @@
 
 <div align="center">
 
+<img src=".banner.svg" width="100%" alt="banner">
+
+</div>
+
+
+<div align="center">
+
 # 🚀 Awesome MCP Servers — 中文版
 
 **面向 Cursor、Claude Code 和 Kimi Code 的 MCP 生态。一个配置文件，真正的超能力。**
@@ -9,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#服务器列表)
 
 <br/>
 
@@ -73,13 +80,13 @@ AI：→ 获取最新文档 → "这是最新的 API 说明……"
 | # | 服务器 | 分类 | 说明 | 包名 |
 |---|--------|------|------|------|
 | 1 | [Filesystem](servers/filesystem.md) | 📁 文件 | 读写和管理本地文件 | `@modelcontextprotocol/server-filesystem` |
-| 2 | [GitHub](servers/github.md) | 🔧 开发 | 仓库、Issues、PR 和代码搜索 | `@modelcontextprotocol/server-github` |
-| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ 数据库 | 查询和浏览 PostgreSQL 数据库 | `@modelcontextprotocol/server-postgres` |
-| 4 | [Redis](servers/redis.md) | 🗄️ 数据库 | 缓存、发布/订阅和键值操作 | `@modelcontextprotocol/server-redis` |
-| 5 | [Web Search](servers/web-search.md) | 🌐 网页 | 使用 Brave 或 Google 搜索网页 | `@modelcontextprotocol/server-brave-search` |
+| 2 | [GitHub](servers/github.md) | 🔧 开发 | 仓库、Issues、PR 和代码搜索 | `@modelcontextprotocol/server-github` (archived) |
+| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ 数据库 | 查询和浏览 PostgreSQL 数据库 | `@modelcontextprotocol/server-postgres` (archived) |
+| 4 | [Redis](servers/redis.md) | 🗄️ 数据库 | 缓存、发布/订阅和键值操作 | `@modelcontextprotocol/server-redis` (archived) |
+| 5 | [Web Search](servers/web-search.md) | 🌐 网页 | 使用 Brave 或 Google 搜索网页 | `@modelcontextprotocol/server-brave-search` (archived) |
 | 6 | [Memory](servers/memory.md) | 🧠 知识 | 持久化记忆和知识图谱 | `@modelcontextprotocol/server-memory` |
-| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 网页 | 浏览器自动化和网页抓取 | `@modelcontextprotocol/server-puppeteer` |
-| 8 | [Slack](servers/slack.md) | 💬 通讯 | 发送消息和管理频道 | `@modelcontextprotocol/server-slack` |
+| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 网页 | 浏览器自动化和网页抓取 | `@modelcontextprotocol/server-puppeteer` (archived) |
+| 8 | [Slack](servers/slack.md) | 💬 通讯 | 发送消息和管理频道 | `@modelcontextprotocol/server-slack` (archived) |
 | 9 | [Context7](servers/context7.md) | 📚 文档 | 最新的库文档 | `@upstash/context7-mcp` |
 | 10 | [Kleap](servers/kleap.md) | 🌐 网页 | 创建、编辑和发布网站 | `kleap-cli` |
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 开发 | 面向 AI 编程代理的共享项目上下文 — 托管式 MCP，提供代码搜索以及决策、经验教训和计划 | `@contextstream/mcp-server` |
@@ -156,16 +163,13 @@ args = ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/your/project"
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
     },
-    "github": {
+    "memory": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_xxxxxxxxxxxx"
-      }
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
-    "postgres": {
+    "context7": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+      "args": ["-y", "@upstash/context7-mcp"]
     }
   }
 }
@@ -251,3 +255,7 @@ MCP 服务器运行在你本机上，只拥有你授予的权限。添加之前�
 **由 MCP 社区用 ❤️ 打造**
 
 [⬆ 回到顶部](#-awesome-mcp-servers--中文版)
+
+</div>
+
+---

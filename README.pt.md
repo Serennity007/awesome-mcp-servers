@@ -16,11 +16,11 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servidores)
 
 <br/>
 
-[O que é MCP?](#what-is-mcp) • [Servidores](#servers) • [Início Rápido](#quick-start) • [Categorias](#categories) • [FAQ](#faq) • [Contribuindo](CONTRIBUTING.md)
+[O que é MCP?](#o-que-é-mcp) • [Servidores](#servidores) • [Início Rápido](#início-rápido) • [Categorias](#categorias) • [FAQ](#faq) • [Contribuindo](CONTRIBUTING.md)
 
 </div>
 
@@ -80,13 +80,13 @@ AI:  → Busca docs atualizados → "Aqui está a API mais recente..."
 | # | Servidor | Categoria | Descrição | Pacote |
 |---|--------|----------|-------------|---------|
 | 1 | [Filesystem](servers/filesystem.md) | 📁 Arquivos | Ler, escrever e gerenciar arquivos locais | `@modelcontextprotocol/server-filesystem` |
-| 2 | [GitHub](servers/github.md) | 🔧 Desenvolvimento | Repos, issues, PRs e busca de código | `@modelcontextprotocol/server-github` |
-| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ Bancos de Dados | Consultar e explorar bancos PostgreSQL | `@modelcontextprotocol/server-postgres` |
-| 4 | [Redis](servers/redis.md) | 🗄️ Bancos de Dados | Cache, pub/sub e operações chave-valor | `@modelcontextprotocol/server-redis` |
-| 5 | [Web Search](servers/web-search.md) | 🌐 Web | Pesquisar na web com Brave ou Google | `@modelcontextprotocol/server-brave-search` |
+| 2 | [GitHub](servers/github.md) | 🔧 Desenvolvimento | Repos, issues, PRs e busca de código | `@modelcontextprotocol/server-github` (archived) |
+| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ Bancos de Dados | Consultar e explorar bancos PostgreSQL | `@modelcontextprotocol/server-postgres` (archived) |
+| 4 | [Redis](servers/redis.md) | 🗄️ Bancos de Dados | Cache, pub/sub e operações chave-valor | `@modelcontextprotocol/server-redis` (archived) |
+| 5 | [Web Search](servers/web-search.md) | 🌐 Web | Pesquisar na web com Brave ou Google | `@modelcontextprotocol/server-brave-search` (archived) |
 | 6 | [Memory](servers/memory.md) | 🧠 Conhecimento | Memória persistente e grafo de conhecimento | `@modelcontextprotocol/server-memory` |
-| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Automação de navegador e web scraping | `@modelcontextprotocol/server-puppeteer` |
-| 8 | [Slack](servers/slack.md) | 💬 Comunicação | Enviar mensagens e gerenciar canais | `@modelcontextprotocol/server-slack` |
+| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Automação de navegador e web scraping | `@modelcontextprotocol/server-puppeteer` (archived) |
+| 8 | [Slack](servers/slack.md) | 💬 Comunicação | Enviar mensagens e gerenciar canais | `@modelcontextprotocol/server-slack` (archived) |
 | 9 | [Context7](servers/context7.md) | 📚 Documentação | Documentação atualizada de bibliotecas | `@upstash/context7-mcp` |
 | 10 | [Kleap](servers/kleap.md) | 🌐 Web | Criar, editar e publicar sites | `kleap-cli` |
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 Desenvolvimento | Contexto de projeto compartilhado para agentes de código de IA — MCP hospedado com busca de código, decisões, aprendizados e planos | `@contextstream/mcp-server` |
@@ -163,16 +163,13 @@ Você pode empilhar quantos servidores precisar:
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
     },
-    "github": {
+    "memory": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_xxxxxxxxxxxx"
-      }
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
-    "postgres": {
+    "context7": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+      "args": ["-y", "@upstash/context7-mcp"]
     }
   }
 }

@@ -80,13 +80,13 @@ AI:  → Fetches live docs → "Here's the latest API..."
 | # | Server | Category | Description | Package |
 |---|--------|----------|-------------|---------|
 | 1 | [Filesystem](servers/filesystem.md) | 📁 Files | Read, write, and manage local files | `@modelcontextprotocol/server-filesystem` |
-| 2 | [GitHub](servers/github.md) | 🔧 Development | Repos, issues, PRs, and code search | `@modelcontextprotocol/server-github` |
-| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ Databases | Query and explore PostgreSQL databases | `@modelcontextprotocol/server-postgres` |
-| 4 | [Redis](servers/redis.md) | 🗄️ Databases | Cache, pub/sub, and key-value operations | `@modelcontextprotocol/server-redis` |
-| 5 | [Web Search](servers/web-search.md) | 🌐 Web | Search the web with Brave or Google | `@modelcontextprotocol/server-brave-search` |
+| 2 | [GitHub](servers/github.md) | 🔧 Development | Repos, issues, PRs, and code search | `@modelcontextprotocol/server-github` (archived) |
+| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ Databases | Query and explore PostgreSQL databases | `@modelcontextprotocol/server-postgres` (archived) |
+| 4 | [Redis](servers/redis.md) | 🗄️ Databases | Cache, pub/sub, and key-value operations | `@modelcontextprotocol/server-redis` (archived) |
+| 5 | [Web Search](servers/web-search.md) | 🌐 Web | Search the web with Brave or Google | `@modelcontextprotocol/server-brave-search` (archived) |
 | 6 | [Memory](servers/memory.md) | 🧠 Knowledge | Persistent memory and knowledge graph | `@modelcontextprotocol/server-memory` |
-| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Browser automation and web scraping | `@modelcontextprotocol/server-puppeteer` |
-| 8 | [Slack](servers/slack.md) | 💬 Communication | Send messages and manage channels | `@modelcontextprotocol/server-slack` |
+| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | Browser automation and web scraping | `@modelcontextprotocol/server-puppeteer` (archived) |
+| 8 | [Slack](servers/slack.md) | 💬 Communication | Send messages and manage channels | `@modelcontextprotocol/server-slack` (archived) |
 | 9 | [Context7](servers/context7.md) | 📚 Documentation | Up-to-date library documentation | `@upstash/context7-mcp` |
 | 10 | [Kleap](servers/kleap.md) | 🌐 Web | Create, edit, and publish websites | `kleap-cli` |
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 Development | Shared project context for AI coding agents — hosted MCP with code search plus decisions, lessons, and plans | `@contextstream/mcp-server` |
@@ -163,16 +163,13 @@ You can stack as many servers as you need:
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
     },
-    "github": {
+    "memory": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_xxxxxxxxxxxx"
-      }
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
-    "postgres": {
+    "context7": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+      "args": ["-y", "@upstash/context7-mcp"]
     }
   }
 }

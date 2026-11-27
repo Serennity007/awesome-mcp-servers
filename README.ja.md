@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#サーバー一覧)
 
 <br/>
 
@@ -80,13 +80,13 @@ AI:  → Fetches live docs → "Here's the latest API..."
 | # | サーバー | カテゴリ | 説明 | パッケージ |
 |---|--------|----------|-------------|---------|
 | 1 | [Filesystem](servers/filesystem.md) | 📁 ファイル | ローカルファイルの読み書きと管理 | `@modelcontextprotocol/server-filesystem` |
-| 2 | [GitHub](servers/github.md) | 🔧 開発 | リポジトリ、Issues、PR、コード検索 | `@modelcontextprotocol/server-github` |
-| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ データベース | PostgreSQLデータベースのクエリと探索 | `@modelcontextprotocol/server-postgres` |
-| 4 | [Redis](servers/redis.md) | 🗄️ データベース | キャッシュ、Pub/Sub、キーバリュー操作 | `@modelcontextprotocol/server-redis` |
-| 5 | [Web Search](servers/web-search.md) | 🌐 Web | BraveまたはGoogleでウェブ検索 | `@modelcontextprotocol/server-brave-search` |
+| 2 | [GitHub](servers/github.md) | 🔧 開発 | リポジトリ、Issues、PR、コード検索 | `@modelcontextprotocol/server-github` (archived) |
+| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ データベース | PostgreSQLデータベースのクエリと探索 | `@modelcontextprotocol/server-postgres` (archived) |
+| 4 | [Redis](servers/redis.md) | 🗄️ データベース | キャッシュ、Pub/Sub、キーバリュー操作 | `@modelcontextprotocol/server-redis` (archived) |
+| 5 | [Web Search](servers/web-search.md) | 🌐 Web | BraveまたはGoogleでウェブ検索 | `@modelcontextprotocol/server-brave-search` (archived) |
 | 6 | [Memory](servers/memory.md) | 🧠 ナレッジ | 永続メモリとナレッジグラフ | `@modelcontextprotocol/server-memory` |
-| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | ブラウザ自動化とウェブスクレイピング | `@modelcontextprotocol/server-puppeteer` |
-| 8 | [Slack](servers/slack.md) | 💬 コミュニケーション | メッセージ送信とチャンネル管理 | `@modelcontextprotocol/server-slack` |
+| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Web | ブラウザ自動化とウェブスクレイピング | `@modelcontextprotocol/server-puppeteer` (archived) |
+| 8 | [Slack](servers/slack.md) | 💬 コミュニケーション | メッセージ送信とチャンネル管理 | `@modelcontextprotocol/server-slack` (archived) |
 | 9 | [Context7](servers/context7.md) | 📚 ドキュメント | 最新のライブラリドキュメント | `@upstash/context7-mcp` |
 | 10 | [Kleap](servers/kleap.md) | 🌐 Web | ウェブサイトの作成、編集、公開 | `kleap-cli` |
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 開発 | AIコーディングエージェント向けの共有プロジェクトコンテキスト — コード検索と決定事項・教訓・計画を備えたホスト型MCP | `@contextstream/mcp-server` |
@@ -163,16 +163,13 @@ args = ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/your/project"
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
     },
-    "github": {
+    "memory": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_xxxxxxxxxxxx"
-      }
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
-    "postgres": {
+    "context7": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+      "args": ["-y", "@upstash/context7-mcp"]
     }
   }
 }

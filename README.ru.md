@@ -16,11 +16,11 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#серверы)
 
 <br/>
 
-[Что такое MCP?](#what-is-mcp) • [Серверы](#servers) • [Быстрый старт](#quick-start) • [Категории](#categories) • [FAQ](#faq) • [Участие](CONTRIBUTING.md)
+[Что такое MCP?](#что-такое-mcp) • [Серверы](#серверы) • [Быстрый старт](#быстрый-старт) • [Категории](#категории) • [FAQ](#faq) • [Участие](CONTRIBUTING.md)
 
 </div>
 
@@ -80,13 +80,13 @@
 | # | Сервер | Категория | Описание | Пакет |
 |---|--------|----------|-------------|---------|
 | 1 | [Filesystem](servers/filesystem.md) | 📁 Файлы | Чтение, запись и управление локальными файлами | `@modelcontextprotocol/server-filesystem` |
-| 2 | [GitHub](servers/github.md) | 🔧 Разработка | Репозитории, issues, PR и поиск по коду | `@modelcontextprotocol/server-github` |
-| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ Базы данных | Запрос и исследование PostgreSQL баз данных | `@modelcontextprotocol/server-postgres` |
-| 4 | [Redis](servers/redis.md) | 🗄️ Базы данных | Кэш, pub/sub, операции ключ-значение | `@modelcontextprotocol/server-redis` |
-| 5 | [Web Search](servers/web-search.md) | 🌐 Веб | Поиск в интернете через Brave или Google | `@modelcontextprotocol/server-brave-search` |
+| 2 | [GitHub](servers/github.md) | 🔧 Разработка | Репозитории, issues, PR и поиск по коду | `@modelcontextprotocol/server-github` (archived) |
+| 3 | [PostgreSQL](servers/postgres.md) | 🗄️ Базы данных | Запрос и исследование PostgreSQL баз данных | `@modelcontextprotocol/server-postgres` (archived) |
+| 4 | [Redis](servers/redis.md) | 🗄️ Базы данных | Кэш, pub/sub, операции ключ-значение | `@modelcontextprotocol/server-redis` (archived) |
+| 5 | [Web Search](servers/web-search.md) | 🌐 Веб | Поиск в интернете через Brave или Google | `@modelcontextprotocol/server-brave-search` (archived) |
 | 6 | [Memory](servers/memory.md) | 🧠 Знания | Постоянная память и граф знаний | `@modelcontextprotocol/server-memory` |
-| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Веб | Автоматизация браузера и веб-скрейпинг | `@modelcontextprotocol/server-puppeteer` |
-| 8 | [Slack](servers/slack.md) | 💬 Коммуникация | Отправка сообщений и управление каналами | `@modelcontextprotocol/server-slack` |
+| 7 | [Puppeteer](servers/puppeteer.md) | 🌐 Веб | Автоматизация браузера и веб-скрейпинг | `@modelcontextprotocol/server-puppeteer` (archived) |
+| 8 | [Slack](servers/slack.md) | 💬 Коммуникация | Отправка сообщений и управление каналами | `@modelcontextprotocol/server-slack` (archived) |
 | 9 | [Context7](servers/context7.md) | 📚 Документация | Актуальная документация библиотек | `@upstash/context7-mcp` |
 | 10 | [Kleap](servers/kleap.md) | 🌐 Веб | Создание, редактирование и публикация сайтов | `kleap-cli` |
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 Разработка | Общий контекст проекта для ИИ-агентов кодирования — размещённый MCP с поиском по коду, решениями, извлечёнными уроками и планами | `@contextstream/mcp-server` |
@@ -163,16 +163,13 @@ args = ["-y", "@modelcontextprotocol/server-filesystem", "/path/to/your/project"
       "command": "npx",
       "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
     },
-    "github": {
+    "memory": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "ghp_xxxxxxxxxxxx"
-      }
+      "args": ["-y", "@modelcontextprotocol/server-memory"]
     },
-    "postgres": {
+    "context7": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"]
+      "args": ["-y", "@upstash/context7-mcp"]
     }
   }
 }
