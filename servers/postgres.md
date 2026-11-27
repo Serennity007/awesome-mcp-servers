@@ -1,10 +1,12 @@
 # PostgreSQL MCP Server
 
-> Last updated: 2026 | Status: Stable | Maintained by: Anthropic (Model Context Protocol team)
+> Last updated: 2026 | Status: Archived (unmaintained) | Maintained by: None — archived by Anthropic (Model Context Protocol team)
 
 ## What It Does
 
 The PostgreSQL MCP server lets your AI assistant query, explore, and manage PostgreSQL databases directly. It can run SQL queries, inspect schemas, analyze table structures, and help you understand your data — all through conversation. No more copy-pasting query results.
+
+> ⚠️ **Deprecated:** this reference server is archived and unmaintained — the npm package below no longer receives updates or security fixes.
 
 ## Quick Setup
 
@@ -58,6 +60,6 @@ claude mcp add postgres -- npx -y @modelcontextprotocol/server-postgres postgres
 
 ## Links
 
-- [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres)
+- [GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)
 - [npm](https://www.npmjs.com/package/@modelcontextprotocol/server-postgres)
-- [Documentation](https://modelcontextprotocol.io/docs/tools/postgres)
+- [Documentation](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres)

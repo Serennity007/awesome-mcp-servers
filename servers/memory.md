@@ -62,4 +62,4 @@ The Memory server uses a local knowledge graph stored as JSON:
 
 - [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/memory)
 - [npm](https://www.npmjs.com/package/@modelcontextprotocol/server-memory)
-- [Documentation](https://modelcontextprotocol.io/docs/tools/memory)
+- [Documentation](https://github.com/modelcontextprotocol/servers/blob/main/src/memory/README.md)

@@ -6,8 +6,8 @@ MCP servers for database access — query, explore, cache, and manage your data 
 
 | Server | Description | Package | Status |
 |--------|-------------|---------|--------|
-| [PostgreSQL](../servers/postgres.md) | Query and explore PostgreSQL databases | `@modelcontextprotocol/server-postgres` | Stable |
-| [Redis](../servers/redis.md) | Cache, pub/sub, and key-value operations | `@modelcontextprotocol/server-redis` | Stable |
+| [PostgreSQL](../servers/postgres.md) | Query and explore PostgreSQL databases | `@modelcontextprotocol/server-postgres` | Archived (unmaintained) |
+| [Redis](../servers/redis.md) | Cache, pub/sub, and key-value operations | `@modelcontextprotocol/server-redis` | Archived (unmaintained) |
 
 ## Typical Workflows
 

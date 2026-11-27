@@ -1,10 +1,12 @@
 # Puppeteer MCP Server
 
-> Last updated: 2026 | Status: Stable | Maintained by: Anthropic (Model Context Protocol team)
+> Last updated: 2026 | Status: Archived (unmaintained) | Maintained by: None — archived by Anthropic (Model Context Protocol team)
 
 ## What It Does
 
 The Puppeteer MCP server gives your AI assistant a full browser to work with. It can navigate websites, take screenshots, fill forms, click buttons, and scrape content — all through headless Chrome. Your AI can test web apps, extract data, and automate any browser-based workflow.
+
+> ⚠️ **Deprecated:** this reference server is archived and unmaintained — the npm package below no longer receives updates or security fixes.
 
 ## Quick Setup
 
@@ -59,6 +61,6 @@ claude mcp add puppeteer -- npx -y @modelcontextprotocol/server-puppeteer
 
 ## Links
 
-- [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer)
+- [GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)
 - [npm](https://www.npmjs.com/package/@modelcontextprotocol/server-puppeteer)
-- [Documentation](https://modelcontextprotocol.io/docs/tools/puppeteer)
+- [Documentation](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/puppeteer)

@@ -59,4 +59,4 @@ claude mcp add filesystem -- npx -y @modelcontextprotocol/server-filesystem /pat
 
 - [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem)
 - [npm](https://www.npmjs.com/package/@modelcontextprotocol/server-filesystem)
-- [Documentation](https://modelcontextprotocol.io/docs/tools/filesystem)
+- [Documentation](https://github.com/modelcontextprotocol/servers/blob/main/src/filesystem/README.md)

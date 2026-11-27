@@ -1,10 +1,12 @@
 # Web Search MCP Server
 
-> Last updated: 2026 | Status: Stable | Maintained by: Anthropic (Model Context Protocol team)
+> Last updated: 2026 | Status: Archived (unmaintained) | Maintained by: None — archived by Anthropic (Model Context Protocol team)
 
 ## What It Does
 
 The Web Search MCP server connects your AI assistant to the internet, allowing it to search the web using Brave Search or Google. Your AI can look up documentation, find solutions to errors, research APIs, and stay current with the latest information — no more "my training data may be outdated" disclaimers.
+
+> ⚠️ **Deprecated:** this reference server is archived and unmaintained — the npm package below no longer receives updates or security fixes.
 
 ## Quick Setup
 
@@ -56,7 +58,7 @@ Set `BRAVE_API_KEY` as an environment variable.
 
 ## Links
 
-- [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search)
+- [GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)
 - [npm](https://www.npmjs.com/package/@modelcontextprotocol/server-brave-search)
-- [Documentation](https://modelcontextprotocol.io/docs/tools/brave-search)
+- [Documentation](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/brave-search)
 - [Brave API Keys](https://brave.com/search/api/)

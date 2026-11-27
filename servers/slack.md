@@ -1,10 +1,12 @@
 # Slack MCP Server
 
-> Last updated: 2026 | Status: Stable | Maintained by: Anthropic (Model Context Protocol team)
+> Last updated: 2026 | Status: Archived (unmaintained) | Maintained by: None — archived by Anthropic (Model Context Protocol team)
 
 ## What It Does
 
 The Slack MCP server connects your AI assistant to your Slack workspace. It can send messages, read channel history, manage threads, and search conversations — all through natural language. Your AI becomes a bridge between your code and your team communication.
+
+> ⚠️ **Deprecated:** this reference server is archived and unmaintained — the npm package below no longer receives updates or security fixes.
 
 ## Quick Setup
 
@@ -58,7 +60,7 @@ Set `SLACK_BOT_TOKEN` and `SLACK_TEAM_ID` as environment variables.
 
 ## Links
 
-- [GitHub](https://github.com/modelcontextprotocol/servers/tree/main/src/slack)
+- [GitHub](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)
 - [npm](https://www.npmjs.com/package/@modelcontextprotocol/server-slack)
-- [Documentation](https://modelcontextprotocol.io/docs/tools/slack)
+- [Documentation](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack)
 - [Slack API Apps](https://api.slack.com/apps)
