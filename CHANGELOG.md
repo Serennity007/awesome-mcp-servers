@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.1] - 2026-11-27
+
+### Fixed
+
+- GitHub, PostgreSQL, Puppeteer, Redis, Slack and Web Search reference pages now report `Status: Archived (unmaintained)` with a truthful maintainer line and a deprecation note, link to the [`servers-archived`](https://github.com/modelcontextprotocol/servers-archived) source, and the GitHub page points at GitHub's official [`github/github-mcp-server`](https://github.com/github/github-mcp-server) (#9)
+- Category indexes and the README table mark the archived packages instead of presenting them as stable; the multi-server example now stacks only maintained servers (#9)
+- Dead Documentation links (removed per-server pages that now return 404) replaced with each server's own GitHub README/tree or the archived tree (#10)
+- 30 broken in-page anchors fixed across the Arabic, Chinese, German, French, Japanese, Korean, Portuguese and Russian READMEs, and the Chinese README now carries the same banner as the other locales (#11)
+
 ## [1.2.0] - 2026-11-27
 
 ### Added
