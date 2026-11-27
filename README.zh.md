@@ -9,7 +9,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-13-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
 
 <br/>
 
@@ -85,6 +85,7 @@ AI：→ 获取最新文档 → "这是最新的 API 说明……"
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 开发 | 面向 AI 编程代理的共享项目上下文 — 托管式 MCP，提供代码搜索以及决策、经验教训和计划 | `@contextstream/mcp-server` |
 | 12 | [Agent QA](servers/agent-qa.md) | 🔧 开发 | 编写并运行 QA 测试，然后分诊结果 | `agent-qa` |
 | 13 | [Geonode](servers/geonode.md) | 🌐 网页 | 托管式网页提取、爬取、URL 发现与搜索 | Remote: https://mcp.geonode.com/mcp |
+| 14 | [Poptin](servers/poptin.md) | 💬 通讯 | 托管式线索捕获、弹窗/表单分析与邮件营销工作流 | Remote: https://mcp.popt.in/mcp |
 
 ---
 
@@ -94,7 +95,7 @@ AI：→ 获取最新文档 → "这是最新的 API 说明……"
 |------|--------|------|
 | [🔧 开发](by-category/development.md) | GitHub, ContextStream, Agent QA | 代码、仓库、共享项目上下文、QA 测试 |
 | [🗄️ 数据库](by-category/databases.md) | PostgreSQL, Redis | 查询、存储、缓存 |
-| [💬 通讯](by-category/communication.md) | Slack | 消息收发 |
+| [💬 通讯](by-category/communication.md) | Slack, Poptin | 消息收发 |
 | 📁 文件 | Filesystem | 本地文件操作 |
 | [🌐 网页](by-category/web.md) | Web Search, Puppeteer, Kleap, Geonode | 搜索、浏览器自动化、网站发布、网页提取 |
 | 🧠 知识 | Memory, Context7 | 持久化上下文、实时文档 |

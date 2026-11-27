@@ -7,6 +7,7 @@ MCP servers for team communication and collaboration.
 | Server | Description | Package | Status |
 |--------|-------------|---------|--------|
 | [Slack](../servers/slack.md) | Send messages and manage channels | `@modelcontextprotocol/server-slack` | Stable |
+| [Poptin](../servers/poptin.md) | Hosted lead-capture analytics and email campaign workflows | Remote: https://mcp.popt.in/mcp | Stable |
 
 ## Typical Workflows
 

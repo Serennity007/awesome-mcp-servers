@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-13-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
 
 <br/>
 
@@ -92,6 +92,7 @@ AI:  → 최신 문서 가져오기 → "최신 API입니다..."
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 개발 | AI 코딩 에이전트를 위한 공유 프로젝트 컨텍스트 — 코드 검색과 결정 사항, 교훈, 계획을 제공하는 호스팅형 MCP | `@contextstream/mcp-server` |
 | 12 | [Agent QA](servers/agent-qa.md) | 🔧 개발 | QA 테스트를 작성하고 실행한 뒤 결과 분류 | `agent-qa` |
 | 13 | [Geonode](servers/geonode.md) | 🌐 웹 | 호스팅형 웹 추출, 크롤링, URL 발견 및 검색 | Remote: https://mcp.geonode.com/mcp |
+| 14 | [Poptin](servers/poptin.md) | 💬 커뮤니케이션 | 호스팅형 리드 수집, 팝업/폼 분석 및 이메일 캠페인 워크플로 | Remote: https://mcp.popt.in/mcp |
 
 ---
 
@@ -101,7 +102,7 @@ AI:  → 최신 문서 가져오기 → "최신 API입니다..."
 |----------|---------|-------------|
 | [🔧 개발](by-category/development.md) | GitHub, ContextStream, Agent QA | 코드, 레포, 공유 프로젝트 컨텍스트, QA 테스트 |
 | [🗄️ 데이터베이스](by-category/databases.md) | PostgreSQL, Redis | 쿼리, 저장, 캐시 |
-| [💬 커뮤니케이션](by-category/communication.md) | Slack | 메시징 |
+| [💬 커뮤니케이션](by-category/communication.md) | Slack, Poptin | 메시징 |
 | 📁 파일 | Filesystem | 로컬 파일 연산 |
 | [🌐 웹](by-category/web.md) | Web Search, Puppeteer, Kleap, Geonode | 검색, 브라우저 자동화, 사이트 게시, 웹 추출 |
 | 🧠 지식 | Memory, Context7 | 영구 컨텍스트, 최신 문서 |

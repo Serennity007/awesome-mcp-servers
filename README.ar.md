@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-13-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
 
 <br/>
 
@@ -92,6 +92,7 @@ AI: → يجلب الوثائق الحية → "إليك آخر API..."
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 تطوير | سياق مشروع مشترك لوكلاء البرمجة بالذكاء الاصطناعي — MCP مستضاف مع البحث في الكود والقرارات والدروس والخطط | `@contextstream/mcp-server` |
 | 12 | [Agent QA](servers/agent-qa.md) | 🔧 تطوير | إنشاء اختبارات ضمان الجودة وتشغيلها، ثم فرز النتائج | `agent-qa` |
 | 13 | [Geonode](servers/geonode.md) | 🌐 ويب | استخراج محتوى الويب المستضاف والزحف واكتشاف الروابط والبحث | Remote: https://mcp.geonode.com/mcp |
+| 14 | [Poptin](servers/poptin.md) | 💬 اتصالات | استقطاب العملاء المستضاف وتحليلات النوافذ المنبثقة/النماذج وسير عمل حملات البريد الإلكتروني | Remote: https://mcp.popt.in/mcp |
 
 ---
 
@@ -101,7 +102,7 @@ AI: → يجلب الوثائق الحية → "إليك آخر API..."
 |----------|---------|-------------|
 | [🔧 تطوير](by-category/development.md) | GitHub, ContextStream, Agent QA | الكود، المستودعات، سياق المشروع المشترك، اختبارات ضمان الجودة |
 | [🗄️ قواعد بيانات](by-category/databases.md) | PostgreSQL, Redis | الاستعلام، التخزين، التخزين المؤقت |
-| [💬 اتصالات](by-category/communication.md) | Slack | المراسلة |
+| [💬 اتصالات](by-category/communication.md) | Slack, Poptin | المراسلة |
 | 📁 ملفات | Filesystem | عمليات الملفات المحلية |
 | [🌐 ويب](by-category/web.md) | Web Search, Puppeteer, Kleap, Geonode | البحث، أتمتة المتصفح، نشر المواقع، استخراج محتوى الويب |
 | 🧠 معرفة | Memory, Context7 | السياق الدائم، الوثائق الحية |

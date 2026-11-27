@@ -16,7 +16,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Servers](https://img.shields.io/badge/Servers-13-blue)](#servers)
+[![Servers](https://img.shields.io/badge/Servers-14-blue)](#servers)
 
 <br/>
 
@@ -92,6 +92,7 @@ KI:  → Holt aktuelle Docs → "Hier ist die neueste API..."
 | 11 | [ContextStream](servers/contextstream.md) | 🔧 Entwicklung | Gemeinsamer Projektkontext für KI-Coding-Agenten — gehostetes MCP mit Codesuche sowie Entscheidungen, Erkenntnissen und Plänen | `@contextstream/mcp-server` |
 | 12 | [Agent QA](servers/agent-qa.md) | 🔧 Entwicklung | QA-Tests erstellen und ausführen, dann Ergebnisse triagieren | `agent-qa` |
 | 13 | [Geonode](servers/geonode.md) | 🌐 Web | Gehostete Web-Extraktion, Crawling, URL-Erkennung und Suche | Remote: https://mcp.geonode.com/mcp |
+| 14 | [Poptin](servers/poptin.md) | 💬 Kommunikation | Gehostete Lead-Erfassung, Popup-/Formular-Analysen und E-Mail-Kampagnen-Workflows | Remote: https://mcp.popt.in/mcp |
 
 ---
 
@@ -101,7 +102,7 @@ KI:  → Holt aktuelle Docs → "Hier ist die neueste API..."
 |----------|---------|-------------|
 | [🔧 Entwicklung](by-category/development.md) | GitHub, ContextStream, Agent QA | Code, Repos, gemeinsamer Projektkontext, QA-Tests |
 | [🗄️ Datenbanken](by-category/databases.md) | PostgreSQL, Redis | Abfragen, Speichern, Cache |
-| [💬 Kommunikation](by-category/communication.md) | Slack | Messaging |
+| [💬 Kommunikation](by-category/communication.md) | Slack, Poptin | Messaging |
 | 📁 Dateien | Filesystem | Lokale Dateioperationen |
 | [🌐 Web](by-category/web.md) | Web Search, Puppeteer, Kleap, Geonode | Suche, Browser-Automatisierung, Website-Veröffentlichung, Web-Extraktion |
 | 🧠 Wissen | Memory, Context7 | Persistenter Kontext, aktuelle Docs |

@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2026-11-27
+
+### Added
+
+- **Poptin** — Hosted MCP server for lead-capture analytics and email campaign workflows (`https://mcp.popt.in/mcp`; OAuth, Poptin account with MCP access, paid plans may apply; maintained by Poptin)
+- Communication category index now covers email campaign workflows; badges and the repo count move to 14 servers
+
+### Verified
+
+- Repository, docs and endpoint checked on 2026-11-27: GitHub repo `Poptin-LTD/Poptin-MCP` active (pushed 2026-11-25), docs page returned HTTP 200, endpoint reachable (HTTP 405 to HEAD — reachable, authentication required).
+- No independent tool call was exercised: OAuth account access was not used. "Verified" means reachable and documented, not an endorsement of a paid plan.
+
 ## [1.1.1] - 2026-11-24
 
 ### Added
